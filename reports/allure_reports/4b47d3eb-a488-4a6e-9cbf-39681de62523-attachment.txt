@@ -1,6 +1,0 @@
-There is an error
-assert 'OrangeHRM' == 'OrangeHR'
-  - OrangeHR
-  + OrangeHRM
-  ?         +
-Test Done
