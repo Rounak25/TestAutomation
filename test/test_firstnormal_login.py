@@ -35,7 +35,7 @@ class Test_Login():
     def test_logout(self,test_setup):
         logout = HomePage(driver)
         logout.click_Welcome()
-        logout.click_Logou()
+        logout.click_Logout()
 
         # driver.find_element_by_id("welcome").click()
         # driver.find_element_by_link_text("Logout").click()

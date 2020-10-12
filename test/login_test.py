@@ -32,7 +32,7 @@ class Test_Login():
             logout.click_Welcome()
             logout.click_Logout()
             x = driver.title
-            assert x == "Orange"
+            assert x == "OrangeHRM"
 
         except AssertionError as error:
             print("There is an error")
